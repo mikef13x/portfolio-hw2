@@ -1,0 +1,105 @@
+
+
+
+body {
+position: relative;
+
+}
+
+
+header {
+background-color: green;
+
+}
+
+nav {
+    text-align: right;
+    background-color: lightblue;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+    
+    
+}
+
+
+#work 
+
+img {
+    margin: 20px;
+    padding: 20px;
+
+}
+
+
+.contact {
+    background-color: purple;
+    color: grey;
+    text-align: center;
+    height: 150px;
+    padding: 40px;
+    margin: 40px;
+}
+
+#contact {
+    text-align: left;
+   
+}
+a {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+}
+
+
+
+#contact > a {
+    color: green;
+    font-size: 24px;
+    margin: 10px 90px;
+    padding: 10px 90px ;
+   
+}
+
+nav > ul > a {
+    color: orange;
+}
+
+
+
+.about-me {
+    background-color: purple;
+    
+    
+
+}
+
+#about-me > div > p {
+    color: red;
+    display: inline-block;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    
+}
+
+#about-me > img {
+    border-radius: 100%;
+}
+
+p {
+    margin: 0%;
+   
+}
