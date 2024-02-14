@@ -1,19 +1,20 @@
 * {
-    font-family:'calibri';
+    font-family:'Times New Roman';
+    list-style:none;
     
 }
 
 
 :root {
     --mint: #53be92;
-    --cream: #dfdeb9;
-    --dark: #2e2d2d;  
+    --cream: #fffee8;
+    --dark: #242422;  
  
 }
 
 body {
 position: relative;
-background-color: var(--cream);
+background-color: var(--dark);
 ;
 }
 
@@ -21,19 +22,19 @@ background-color: var(--cream);
 
 header {
 
-color: aliceblue;
-background-color: #afae7e;
+color: rgb(118, 206, 152);
+
 text-align: left; 
 
 }
 
 footer {
-    background-color: var(--mint);
-    color: var(--dark);
+    background-color: var(--dark);
+    color: var(--cream);
     text-align: center;
     height: 100px;
     justify-content: center;
-    border: solid black;
+    
 }
 
 
@@ -54,15 +55,15 @@ p {
 
 nav {
     text-align: right;
-    background-color: var(--dark);
-    border: solid #dfdea2;
+    background-color: var(--cream);
+    border: solid #474732;
   
    
 
 }
 
 nav > ul > a {
-    color: var(--cream);
+    color: var(--dark);
     margin:10px;
     
 }
@@ -72,11 +73,14 @@ nav > ul > a {
 
 
 #about-me {
-  background-color:#c5c48f; 
+  background-color: #585757;
     border:solid #afae7e; 
     margin:10px;
     display: inline,flex;
     float:left;
+    box-shadow: 5px 5px 5px grey;
+    
+    
 }
 
 #about-me > p {
@@ -95,8 +99,9 @@ nav > ul > a {
 }
 
 .abouttext {
-    color: black;
+    color: var(--cream);
     font-size: 20px;
+    list-style: none;
 }
 
 
@@ -108,7 +113,7 @@ nav > ul > a {
     padding: 15px;
     margin: 15px;
     justify-content: center;
-    background-color:var(--dark) ;
+    background-color: var(--cream);
     border: solid black;
     
 }
@@ -122,7 +127,7 @@ nav > ul > a {
 
 
 #work {
-    color: black;
+    color: var(--cream);
     margin: 10px;
     display: inline-flex;
     text-align: center;
@@ -149,18 +154,18 @@ img {
 
 
 .contact {
-    background-color: var(--dark);
+    background-color: var(--cream);
     color: grey;
     text-align:center;
     height: 200px;
     padding: 20px;
     margin: 20px;
-    border: solid black;
+    border: solid var(--dark);
     
 }
 
 .contact > h2 {
-    color: var(--cream);
+    color: var(--dark);
     padding:0%;
 }
 
@@ -169,7 +174,7 @@ img {
 }
 
 #contact > a {
-    color: var(--cream);
+    color: var(--dark);
     font-size: 24px;
     margin: 20px 90px;
     padding: 20px 90px ;  
