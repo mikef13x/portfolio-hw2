@@ -1,21 +1,29 @@
+* {
+    font-family:'calibri';
+}
+
+
 :root {
     --mint: #53be92;
     --cream: #dfdea2;
-    --dark: #2e2d2d;   
+    --dark: #2e2d2d;  
+ 
 }
 
 body {
 position: relative;
 background-color: rgb(245, 245, 159);
+;
 }
 
 header {
-background-color: green;
+background-color: rgb(115, 216, 115);
+color: aliceblue;
 border: solid black;
 }
 
 footer {
-    background-color: blue;
+    background-color: rgb(80, 80, 250);
     color: yellow;
     text-align: center;
     height: 100px;
@@ -35,7 +43,7 @@ nav {
     text-align: right;
     background-color: lightblue;
     border: solid black;
-    margin: 10px;
+   
 
 }
 
@@ -50,7 +58,7 @@ nav > ul > a {
 
 
 #about-me {
-    background-color: greenyellow; 
+    background-color: rgb(228, 158, 210); 
     border:solid black;
 }
 
@@ -92,7 +100,7 @@ nav > ul > a {
 
 #work {
     color: palevioletred;
-    background-color: rgb(162, 183, 241);
+    background-color: rgb(151, 126, 165);
     border: solid black;
     margin: 10px;
 }
@@ -111,7 +119,7 @@ img {
 
 
 .contact {
-    background-color: purple;
+    background-color: rgb(112, 170, 165);
     color: grey;
     text-align:center;
     height: 200px;
