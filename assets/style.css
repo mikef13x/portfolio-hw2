@@ -1,110 +1,140 @@
 :root {
     --mint: #53be92;
     --cream: #dfdea2;
-    --dark: #2e2d2d;
-    
+    --dark: #2e2d2d;   
 }
-
 
 body {
 position: relative;
-
+background-color: rgb(245, 245, 159);
 }
-
 
 header {
 background-color: green;
-
-}
-
-nav {
-    text-align: right;
-    background-color: lightblue;
-}
-
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
-    margin: 15px;
-    
-    
-}
-
-
-#work 
-
-img {
-    margin: 20px;
-    padding: 20px;
-
-}
-
-
-.contact {
-    background-color: purple;
-    color: grey;
-    text-align: center;
-    height: 150px;
-    padding: 40px;
-    margin: 40px;
-}
-
-#contact {
-    text-align: left;
-   
-}
-a {
-    color: white;
+border: solid black;
 }
 
 footer {
-    background-color: black;
+    background-color: blue;
     color: yellow;
     text-align: center;
     height: 100px;
     justify-content: center;
+    border: solid black;
 }
 
+p {
+    margin:0%;  
+}
+    
 
 
-#contact > a {
-    color: green;
-    font-size: 24px;
-    margin: 10px 90px;
-    padding: 10px 90px ;
-   
+
+
+nav {
+    text-align: right;
+    background-color: lightblue;
+    border: solid black;
+    margin: 10px;
+
 }
 
 nav > ul > a {
     color: orange;
+    
 }
 
 
 
-.about-me {
-    background-color: purple;
-    
-    
 
+
+
+#about-me {
+    background-color: greenyellow; 
+    border:solid black;
 }
 
-#about-me > div > p {
-    color: red;
-    display: inline-block;
-    text-align: right;
+#about-me > p {
+    color:aquamarine;
 }
 
-li {
-    list-style: none;
-    
+
+#about-me > h2 {
+    color: pink;
 }
 
 #about-me > img {
     border-radius: 100%;
 }
 
-p {
-    margin: 0%;
+
+
+
+
+
+
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+    background-color:rgb(223, 223, 223) ;
+    border: solid black;
+}
+
+
+.workheader{
+    color: olivedrab;
+    text-align: center;
+}
+
+#work {
+    color: palevioletred;
+    background-color: rgb(162, 183, 241);
+    border: solid black;
+    margin: 10px;
+}
+
+img {
+    margin: 20px;
+    position: flex;
+    border: solid black;
+    box-shadow: 10px 5px 5px grey;
+}
+
+
+
+
+
+
+
+.contact {
+    background-color: purple;
+    color: grey;
+    text-align:center;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: solid black;
+    
+}
+
+.contact > h2 {
+    color: red;
+    padding:0%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact > a {
+    color: green;
+    font-size: 24px;
+    margin: 20px 90px;
+    padding: 20px 90px ;  
    
 }
+
