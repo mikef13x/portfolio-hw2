@@ -36,7 +36,12 @@ p {
 }
     
 
-
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+}
 
 
 nav {
@@ -51,7 +56,6 @@ nav > ul > a {
     color: orange;
     
 }
-
 
 
 
@@ -103,13 +107,17 @@ nav > ul > a {
     background-color: rgb(151, 126, 165);
     border: solid black;
     margin: 10px;
+    display: inline-block;
+    
 }
+
 
 img {
     margin: 20px;
     position: flex;
     border: solid black;
     box-shadow: 10px 5px 5px grey;
+    
 }
 
 
