@@ -5,7 +5,7 @@ In this project we were tasked to create a portfolio page that includes many fea
 
 
 ## Screenshot
-![alt text](assets/images/portfolio.png "Website Screenshot")
+![alt text](assets/images/portfolio.png "Portfolio Screenshot")
 
 
 ## Site Link 
